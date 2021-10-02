@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body style="font-family: sans-serif ;">
+        <div class="links_div">
+            <a class="link" href="index.html">Search</a>
+        </div>
+        <div id="head">
+           <b> Advanced Search </b>
+        </div>
+        <div id="middle_search">
+            <hr>
+            <p style="font-size : 19px;"><b>Find pages with...</b></p>
+            <form action="https://www.google.com/search">
+                <div class="form">
+                    <label for="as_q" class="text">
+                        all these words:
+                    </label>
+                    <input class="box" type="text" name="as_q">
+                </div>
+            
+                <div class="form">
+                    <label for="as_epq" class="text">
+                        this exact word or phrase:
+                    </label>
+                    <input class="box" type="text" name="as_epq">
+                </div>
+
+                <div class="form">
+                    <label for="as_oq" class="text">
+                        any of these words:
+                    </label>
+                    <input class="box" type="text" name="as_oq">
+                </div>
+
+                <div class="form">
+                    <label for="as_q" class="text">
+                        none of these words:
+                    </label>
+                    <input class="box" type="text" name="as_eq">
+                </div>
+
+                <input class="button" id="adva" type="submit" value="Advanced Search">
+            </form>
+        </div>
+    </body>
+</html>
+
+<!-- https://www.google.com/search?as_q=important+words&as_epq=+exactly+precise&as_oq=probably+maybe&as_eq=nothing
